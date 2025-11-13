@@ -7,10 +7,6 @@ __pycache__/
 # Poetry virtual environments
 .venv/
 
-# Data files (optional, if you don't want to upload large CSVs)
-data/processed/
-data/raw/
-
 # IDE/editor settings
 .vscode/
 *.swp

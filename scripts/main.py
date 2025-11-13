@@ -1,6 +1,6 @@
-from dataset import preprocess
-from configs import MEDIAN_PATH, MICE_PATH
-from model import rf_kfold_eval
+from scripts.dataset import preprocess
+from scripts.configs import MEDIAN_PATH, MICE_PATH
+from scripts.model import rf_kfold_eval
 
 # Change this for testing
 FRAC = 0.10         # Fraction of imputed data

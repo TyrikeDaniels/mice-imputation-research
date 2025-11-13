@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.experimental import enable_iterative_imputer # enable IterativeImputer
 from sklearn.impute import IterativeImputer, SimpleImputer
 
-from configs import MEDIAN_PATH, MICE_PATH, RAW_PATH
+from scripts.configs import MEDIAN_PATH, MICE_PATH, RAW_PATH
 from sklearn.exceptions import ConvergenceWarning
 
 def random_mask(df, columns, frac=0.1, random_state=None):
